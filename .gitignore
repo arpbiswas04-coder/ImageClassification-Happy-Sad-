@@ -1,0 +1,40 @@
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+
+# Environment Variables & Secrets (Keep .env.example tracked, ignore real .env)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Node & Frontend Build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+.vercel/
+
+# OS and Editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Trained Model
+# Note: imageclassifier.keras is ~44.4 MB.
+# GitHub permits files up to 100 MB (files > 50 MB generate a warning).
+# If you deploy to Render by including the model directly in the repository,
+# leave the line below commented out.
+# If you prefer to download the model dynamically from MODEL_URL, uncomment the line below:
+# imageclassifier.keras

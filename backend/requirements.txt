@@ -1,0 +1,13 @@
+# Backend dependencies for Mood Machine
+# NOTE: These dependencies are intended for deployment on Render.
+# DO NOT run pip install locally on development machine as requested.
+
+fastapi==0.115.0
+uvicorn[standard]==0.31.0
+python-multipart==0.0.12
+pillow==10.4.0
+numpy>=1.26.0,<2.0.0
+tensorflow==2.17.0
+keras>=3.4.0
+requests==2.32.3
+python-dotenv==1.0.1
