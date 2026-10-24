@@ -474,10 +474,6 @@ https://imageclassification-happy-sad.onrender.com/docs
 
 ---
 
-## License
-
-Choose and add a license file if you intend to distribute the project under an open-source license.
-
 ## Acknowledgements
 
 Built as a learning project to explore deep-learning inference, API development, frontend integration, and cloud deployment.
